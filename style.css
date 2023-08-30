@@ -1,0 +1,185 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color:rgb(255, 216, 222);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: rgb(250, 140, 158);
+    z-index: 1;
+    border-bottom: 1px solid rgb(252, 74, 104);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+.logo{
+    width: 100px;
+    border-radius: 50px;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px pink;;
+}
+.kolom{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.home{
+    padding: 30px;
+    padding-left: 0;
+}
+.div1{
+    margin-left: 20px;
+    padding: 20px;
+    padding-left: 8px;
+    padding-right: 100px;
+    display: flex;
+    box-shadow: 0px 0px 1px rgb(252, 163, 177);
+}
+.profesi{
+    padding-top: 8px;
+    font-size: 11px;
+    color: gray;
+}
+.button{
+    display: flex;
+    padding-top: 20px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    width: fit-content;
+    height: auto;
+    color: black;
+    background-color: pink;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid pink;
+    box-shadow: 1px 1px 10px pink;
+}
+.btn-secondary{
+    padding: 10px 20px;
+    margin-left: 10px;
+    width: fit-content;
+    height: auto;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid pink;
+}
+.div2{
+    margin-left: 30px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 0px 1px rgb(252, 163, 177);
+}
+.subject{
+    line-height: 27px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.object{
+    padding-left: 50px;
+    line-height: 27px;
+    font-size: 14px;
+    color: gray;
+}
+.biodata{
+    display: flex;
+    padding-right: 30px;
+    padding-left: 0;
+    padding-top: none;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.biodalam{
+    padding: 10px;
+}
+.biorole{
+    padding-top: 10px;
+}
+.bioavailability{
+    padding-top: 10px;
+}
+.biousia{
+    padding-top: 10px;
+}
+.biolokasi{
+    padding-top: 10px;
+}
+.bioyears{
+    padding-top: 10px;
+}
+.bioemail{
+    padding-top: 10px;
+}
+.submit{
+    margin-top: 30px;
+}
+.text{
+    size: 156px;
+   height: 22px;
+   border: 1px solid rgb(180, 177, 177);
+   box-shadow: 0px 0px 3px rgb(252, 163, 177);
+}
+.buttonsubmit{
+    cursor: pointer;
+    padding-top: 20px;
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 100%;
+    background-color:rgb(250, 174, 186);
+    border: 2px solid pink;
+    box-shadow: 0px 0px 5px pink;
+}
+
